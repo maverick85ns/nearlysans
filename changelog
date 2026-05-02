@@ -1,10 +1,13 @@
 v1.1 - Apr 2026
-Overshoots: rounded characters such as O, U, c, e are usually larger vertically than square or flat ones such as A, M, x, z. The difference (the "overshoot") is bigger in FreeSans than in most other fonts.
-FreeSans: typical overshoot is 23 below baseline, 12 above cap height (729), 9-15 above x height. Kurinto Aria, IBM Plex Sans, and several others have overshoots closer to 10 (proportionally, in the case of fonts with em = 2048).
+Overshoots: rounded characters such as O, U, c, e are usually larger vertically than square or flat ones such as A, M, x, z. The difference (the "overshoot") is bigger in FreeSans
+than in most other fonts.
+FreeSans: typical overshoot is 23 below baseline, 12 above cap height (729), 9-15 above x height. Kurinto Aria, IBM Plex Sans, and several others have overshoots closer to 10
+(proportionally, in the case of fonts with em = 2048).
 Overshoots have been reduced to 10 (or slightly less, in a few cases), for Latin (incl supplemental & derived), Greek, Cyrillic.
 Modified l (with hook) now has overshoot = 5 below baseline.
 Numerals: heights were lower than standard cap height. Adjusted flat numeral tops to 712, rounded to 722; overshoot below baseline is now 10.
-Edited left and right bearings in some Greek and Cyrillic characters. Some Greek and Cyrillic capital letters were not copies of the appropriate Latin characters. Changed this where possible.
+Edited left and right bearings in some Greek and Cyrillic characters. Some Greek and Cyrillic capital letters were not copies of the appropriate Latin characters. Changed this 
+where possible.
 
 Added these to all four fonts, all with width 1000:
 U+23AF horizontal line extension (with same vertical position as arrows).
