@@ -1,0 +1,38 @@
+v1.1 - Apr 2026
+Overshoots: rounded characters such as O, U, c, e are usually larger vertically than square or flat ones such as A, M, x, z. The difference (the "overshoot") is bigger in FreeSans than in most other fonts.
+FreeSans: typical overshoot is 23 below baseline, 12 above cap height (729), 9-15 above x height. Kurinto Aria, IBM Plex Sans, and several others have overshoots closer to 10 (proportionally, in the case of fonts with em = 2048).
+Overshoots have been reduced to 10 (or slightly less, in a few cases), for Latin (incl supplemental & derived), Greek, Cyrillic.
+Modified l (with hook) now has overshoot = 5 below baseline.
+Numerals: heights were lower than standard cap height. Adjusted flat numeral tops to 712, rounded to 722; overshoot below baseline is now 10.
+Edited left and right bearings in some Greek and Cyrillic characters. Some Greek and Cyrillic capital letters were not copies of the appropriate Latin characters. Changed this where possible.
+
+Added these to all four fonts, all with width 1000:
+U+23AF horizontal line extension (with same vertical position as arrows).
+This extends 25 to left & right of the box, so that typical letter-spacing will produce overlap with adjacent arrows.
+U+27F5 long leftward arrow (also extends 25 to right of box)
+U+27F6 long rightward arrow (also extends 25 to left of box)
+
+***************************
+v1.01 - Feb-Mar 2026
+Adjustments/edits:
+Bearings on I (50 left, 50 right) and l (60, 30)
+Other characters based on I and l (diacritics, l with slash, etc.)
+Added hooks to fl and ffl ligatures (U+FB02, U+FB04)
+Broadened Roman numerals containing I (2160-216b) to keep 20 space between I characters
+Period (".", U+002E) - width is now the same as comma, 1/2 that of numerals
+Ä, Ë, Ï, Ü: aligned vertical spacing of dieresis
+ν (Greek nu, U+03BD) removed reference to Latin v; made right side of letter curved (like that in Kurinto Aria)
++, − (minus, U+2212), ×, ÷ aligned them all vertically; made a few other minor edits
+
+***************************
+v1 - Jan 2026
+Started with FreeSans .sfd files (version of 2012-05-03).
+Changed I and l only.
+Added serifs to I:
+regular, 82 w x 82 h
+bold, 100 w x 125 h
+Added hook to l:
+regular, 72 w x 72 h hook, with r = 72 curve
+bold, 100 w x 120 h hook, with r = 120 curve
+
+***************************
