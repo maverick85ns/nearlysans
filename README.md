@@ -9,7 +9,7 @@ New glyphs: Horizontal Line Extension (U+23AF), Long Leftward Arrow (U+27F5), an
 These can be combined, so that you can create unbroken arrows of various lengths (e.g., for chemical equations).
 
 Other modifications:
-(a) New versions of the Greek lower-case letter nu (U+03BD) is included, so that they are no longer copies of the Latin letter v.
+(a) New versions of the Greek lower-case letter nu (U+03BD) are included, so that they are no longer copies of the Latin letter v.
 (b) The rounded parts of Latin, Greek, and Cyrillic characters have been compressed a bit vertically, that is, their overshoots have been reduced. As a result, rounded characters (such as O, Q, c, and e) and non-rounded characters (such as F, M, x, and z) are now closer in height. This is designed to make NearlySans appear more visually uniform, and more similar to other free sans-serif fonts.
 
 Additional details of the modifications made are in the Changelog file.
