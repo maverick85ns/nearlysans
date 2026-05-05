@@ -1,5 +1,9 @@
 Files available on this page:
 ttf.zip - contains four TTF files (Regular; Bold; Oblique; Bold Oblique) for NearlySans v1.1.
 otf.zip - contains four OTF files (Regular; Bold; Oblique; Bold Oblique) for NearlySans v1.1.
-sfd.zip - contains four SFD files (Regular; Bold; Oblique; Bold Oblique) for NearlySans v1.1. These are the SFD files that were used to generate the OTF files.
-The TTF files were generated using slightly different settings. On FontForge's Font Info / OS/2 Metrics tab, both Line Gap settings were changed from 100 to 149 before the TTF files were generated. This value was chosen to make the line height as close as possible to that for Arial (single spacing) in Office365 Word for Windows. In the same app, the OTF files produce a smaller line height, which is the same as that produced by FreeSans (TTF or OTF).
+sfd.zip - contains four SFD files (Regular; Bold; Oblique; Bold Oblique) for NearlySans v1.1. These are the SFD files that were
+used to generate the OTF files.
+The TTF files were generated using slightly different settings. On FontForge's Font Info | OS/2 Metrics tab, both Line Gap settings
+were changed from 100 to 149 before the TTF files were generated. This value was chosen to make the line height as close as possible
+to that for Arial (single spacing) in Office365 Word for Windows.
+The OTF files produce a smaller line height in Word, which is the same as that produced by FreeSans (TTF or OTF).
